@@ -2,8 +2,10 @@ package com.example.demo;
 
 public class BaseballCoach implements Coach{
 
+    // define a private field for the dependency
     private FortuneService fortuneService;
 
+    // constructor for dependency injection
     public BaseballCoach(FortuneService fortuneService) {
         this.fortuneService = fortuneService;
     }

@@ -11,7 +11,7 @@
     <bean id="myFortuneService" class="com.example.demo.HappyFortuneService">
     </bean>
 
-    <bean id="myCoach" class="com.example.demo.BaseballCoach"><constructor-arg ref="myFortuneService" />
+    <bean id="myCoach" class="com.example.demo.TrackCoach"><constructor-arg ref="myFortuneService" />
     </bean>
 </beans>
 
